@@ -38,8 +38,4 @@ BEGIN
     RAISE INFO 'Run %, Statement 2: %', r, (clock_timestamp() - v_ts);
     RAISE INFO '';
   END LOOP;
-
-  RAISE INFO '';
-  RAISE INFO 'Copyright Data Geekery GmbH';
-  RAISE INFO 'https://www.jooq.org/benchmark';
 END$$;
